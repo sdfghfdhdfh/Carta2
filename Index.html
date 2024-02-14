@@ -1,0 +1,43 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carta</title>
+</head>
+<body>
+
+</body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Tu Presencia</strong>
+                        <p>
+                            Tu presencia es un regalo que atesoro mas allá de las palabras, cada ves que estas serca, mi mundo se ilumina con tu luz tan especial y mi corazon se llena de alegria, en este mundo existen casualidades inesperadas, momentos inolvidables y luego estas tu un sol en este mundo de oscuridad con esa sonrisa tan perfecta y con esa locura que me enamora y me provoca felicidad.
+                        </p> 
+                        <p>Te amo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
